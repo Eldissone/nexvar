@@ -89,21 +89,6 @@ a {
     margin-left: 14px
 }
 
-/* Substitui os caracteres de seta pelos ícones da fonte Font Awesome. */
-.header-cta span,
-.course-button b {
-    font-size: 0
-}
-
-.header-cta span::after,
-.course-button b::after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 14px;
-    font-weight: 900;
-    line-height: 1;
-    content: "\f35d"
-}
-
 .menu-toggle {
     display: none
 }
@@ -591,15 +576,6 @@ footer a:last-child {
     z-index: 5
 }
 
-.whatsapp-float {
-    font-size: 0
-}
-
-.whatsapp-float::after {
-    font-family: "Font Awesome 6 Brands";
-    font-size: 29px;
-    content: "\f232"
-}
 
 @media(max-width:800px) {
     .site-header {
