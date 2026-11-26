@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
 :root {
     --ink: #071b3e;
     --blue: #0969f9;
@@ -85,6 +87,21 @@ a {
 .header-cta span {
     font-size: 18px;
     margin-left: 14px
+}
+
+/* Substitui os caracteres de seta pelos ícones da fonte Font Awesome. */
+.header-cta span,
+.course-button b {
+    font-size: 0
+}
+
+.header-cta span::after,
+.course-button b::after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1;
+    content: "\f35d"
 }
 
 .menu-toggle {
@@ -572,6 +589,16 @@ footer a:last-child {
     font-size: 33px;
     box-shadow: 0 8px 24px #071b3e55;
     z-index: 5
+}
+
+.whatsapp-float {
+    font-size: 0
+}
+
+.whatsapp-float::after {
+    font-family: "Font Awesome 6 Brands";
+    font-size: 29px;
+    content: "\f232"
 }
 
 @media(max-width:800px) {
