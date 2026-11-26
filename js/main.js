@@ -1,4 +1,4 @@
-const phone = '244900000000';
+const phone = '244941554103';
 
 document.querySelectorAll('.whatsapp-link').forEach(link => {
   const course = link.dataset.course || 'informações';
