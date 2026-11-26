@@ -60,23 +60,6 @@ a {
     font-weight: 800
 }
 
-.brand-dot {
-    color: var(--blue)
-}
-
-.brand-mark {
-    display: grid;
-    grid-template-columns: repeat(2, 8px);
-    gap: 3px;
-    transform: rotate(45deg);
-    margin-right: 3px
-}
-
-.brand-mark i {
-    height: 8px;
-    background: var(--blue);
-    border-radius: 2px
-}
 
 .main-nav {
     display: flex;
@@ -568,15 +551,6 @@ footer {
 
 footer .brand {
     font-size: 21px
-}
-
-footer .brand-mark {
-    grid-template-columns: repeat(2, 6px);
-    gap: 2px
-}
-
-footer .brand-mark i {
-    height: 6px
 }
 
 footer a:last-child {
